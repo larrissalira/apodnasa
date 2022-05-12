@@ -21,7 +21,7 @@ async function pedidoApi(data){
     obj = result
     console.log(obj);
     ttl.html(`${obj.title}`)
-    exp.html(`${obj.explanation}`)
+    
     
     if (obj.media_type != "video"){
       img.html (`<figure> 
